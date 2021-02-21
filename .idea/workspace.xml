@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f920272-149f-4597-8c67-2c0e5594a51b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bloglist-frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bloglist-frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BlogForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Togglable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Togglable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Notification.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +21,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1odq2s2NPHvg0MGpM2MbaQZHMP9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -25,6 +33,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -41,86 +50,117 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.testing creating blog.when call event handler it received as props with the right details">
-    <configuration name="render title and author as default" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Blog.test.js" />
-      <test-names>
-        <test-name value="render title and author as default" />
-      </test-names>
+  <component name="RunManager" selected="Cypress.testing">
+    <configuration name="Blog app (1)" type="CypressConfigurationType" factoryName="Cypress" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="textRange" />
+      <option name="allNames">
+        <list>
+          <option value="Blog app" />
+        </list>
+      </option>
+      <option name="specsDir" />
+      <option name="specFile" value="$PROJECT_DIR$/cypress/integration/blog_app.spec.js" />
+      <option name="testName" value="Blog app" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="additionalParams" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="nodeJsRef" value="project" />
+      <option name="npmRef" value="Project" />
+      <option name="kind" value="TEST" />
+      <option name="interactive" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="renders the blog's title and author, but does not render its url or number of likes by default.check likes hit twice" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Blog.test.js" />
-      <test-names>
-        <test-name value="renders the blog's title and author, but does not render its url or number of likes by default" />
-        <test-name value="check likes hit twice" />
-      </test-names>
+    <configuration name="Blog app" type="CypressConfigurationType" factoryName="Cypress" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="textRange" />
+      <option name="allNames">
+        <list>
+          <option value="Blog app" />
+          <option value="LoginForm is shown" />
+        </list>
+      </option>
+      <option name="specsDir" />
+      <option name="specFile" value="$PROJECT_DIR$/cypress/integration/blog_app.spec.js" />
+      <option name="testName" value="LoginForm is shown" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="additionalParams" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="nodeJsRef" value="project" />
+      <option name="npmRef" value="Project" />
+      <option name="kind" value="TEST" />
+      <option name="interactive" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="renders the blog's title and author, but does not render its url or number of likes by default.render title and author as default, others hide" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Blog.test.js" />
-      <test-names>
-        <test-name value="renders the blog's title and author, but does not render its url or number of likes by default" />
-        <test-name value="render title and author as default, others hide" />
-      </test-names>
+    <configuration name="testing" type="CypressConfigurationType" factoryName="Cypress" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="textRange" />
+      <option name="allNames">
+        <list>
+          <option value="testing" />
+        </list>
+      </option>
+      <option name="specsDir" />
+      <option name="specFile" value="$PROJECT_DIR$/cypress/integration/test.js" />
+      <option name="testName" value="testing" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="additionalParams" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="nodeJsRef" value="project" />
+      <option name="npmRef" value="Project" />
+      <option name="kind" value="TEST" />
+      <option name="interactive" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="renders the blog's title and author, but does not render its url or number of likes by default.url and likes show after click view button" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Blog.test.js" />
-      <test-names>
-        <test-name value="renders the blog's title and author, but does not render its url or number of likes by default" />
-        <test-name value="url and likes show after click view button" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="testing creating blog.when call event handler it received as props with the right details" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/BlogForm.test.js" />
-      <test-names>
-        <test-name value="testing creating blog" />
-        <test-name value="when call event handler it received as props with the right details" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Cypress.Blog app" />
+      <item itemvalue="Cypress.testing" />
+      <item itemvalue="Cypress.Blog app (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.testing creating blog.when call event handler it received as props with the right details" />
-        <item itemvalue="Jest.renders the blog's title and author, but does not render its url or number of likes by default.check likes hit twice" />
-        <item itemvalue="Jest.renders the blog's title and author, but does not render its url or number of likes by default.url and likes show after click view button" />
-        <item itemvalue="Jest.renders the blog's title and author, but does not render its url or number of likes by default.render title and author as default, others hide" />
-        <item itemvalue="Jest.render title and author as default" />
+        <item itemvalue="Cypress.testing" />
+        <item itemvalue="Cypress.Blog app (1)" />
+        <item itemvalue="Cypress.Blog app" />
       </list>
     </recent_temporary>
   </component>
@@ -139,11 +179,20 @@
       <workItem from="1613654097711" duration="8007000" />
       <workItem from="1613704758594" duration="1285000" />
       <workItem from="1613706113601" duration="851000" />
+      <workItem from="1613789776918" duration="3556000" />
+      <workItem from="1613794162972" duration="693000" />
+      <workItem from="1613795744294" duration="130000" />
+      <workItem from="1613795884647" duration="17754000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
